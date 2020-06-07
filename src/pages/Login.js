@@ -96,7 +96,7 @@ export default function Login() {
               value={username}
               onChange={e => setUsername(e.target.value)}
             />
-          </div>
+          </div> 
         )}
 
         {/* end of single input */}
@@ -107,7 +107,7 @@ export default function Login() {
         {/* submit btn */}
         {!isEmpty && (
           <button
-            type="submit"
+            type= "submit"
             className="btn btn-block btn-primary"
             onClick={handleSubmit}
           >

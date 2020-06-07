@@ -32,7 +32,7 @@ export default function App() {
         <Route path="/cart">
           <Cart />
         </Route>
-        <PrivateRoute path="/checkout" name="john" msg="hello">
+        <PrivateRoute path="/checkout" name="krit" msg="hello">
           <Checkout />
         </PrivateRoute>
         <Route path="/login">
